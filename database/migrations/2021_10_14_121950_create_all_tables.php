@@ -18,7 +18,7 @@ class CreateAllTables extends Migration
             $table->string('email', 100);
             $table->string('password', 200);
             $table->string('name', 100);
-            $table->date('bithdate');
+            $table->date('birthdate');
             $table->string('city', 100)->nullable();
             $table->string('work', 100)->nullable();
             $table->string('avatar', 100)->default('default.jpg');
