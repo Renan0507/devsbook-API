@@ -64,7 +64,7 @@ class CreateAllTables extends Migration
     public function down()
     {
         Schema::dropIfExists('users');
-        Schema::dropIfExists('userrelations');
+        Schema::dropIfExists('userrelation');
         Schema::dropIfExists('posts');
         Schema::dropIfExists('postlikes');
         Schema::dropIfExists('postcomments');
