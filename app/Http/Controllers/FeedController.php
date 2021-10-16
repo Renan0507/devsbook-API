@@ -182,8 +182,8 @@ class FeedController extends Controller
                 $user['cover'] = url('media/covers/'.$user['cover']);
                 $comments[$commentKey]['user'] = $user;
             }
+
             $postList[$postKey]['comments'] = $comments;
-            
         }
 
         return $postList;
