@@ -31,10 +31,12 @@ Route::post('/user/cover', 'UserController@updateCover');
 
 Route::get('/feed', 'FeedController@read');
 Route::get('/user/feed', 'FeedController@userFeed');
+Route::get('/user/photos', 'FeedController@userPhotos');
+
 Route::get('/user/feed/{id}', 'FeedController@userFeed');
 Route::post('/user/follow/{id}', 'UserController@follow');
-// Route::get('/user/followers/{id}', 'UserController@followers');
-// Route::get('/user/photos/{id}', 'UserController@photos');
+Route::get('/user/followers/{id}', 'UserController@followers');
+Route::get('/user/photos/{id}', 'FeedController@userPhotos');
 
 Route::get('/user', 'UserController@read');
 Route::get('/user/{id}', 'UserController@read');
