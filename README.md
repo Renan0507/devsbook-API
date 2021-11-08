@@ -5,14 +5,14 @@
 ## :camera: Demonstração
 
 <p align="center">
-  <img src="./git_img/home.png" height="800">
-  <img src="./git_img/profile.png" height="800">
-  <img src="./git_img/profile.png" height="800">
-  <img src="./git_img/friends.png" height="800">
-  <img src="./git_img/edit_user.png" height="800">
-  <img src="./git_img/search.png" height="800">
-  <img src="./git_img/login.png" height="800">
-  <img src="./git_img/register.png" height="800">
+  <img src="./git_img/home.png" height="400">
+  <img src="./git_img/profile.png" height="400">
+  <img src="./git_img/profile.png" height="400">
+  <img src="./git_img/friends.png" height="400">
+  <img src="./git_img/edit_user.png" height="400">
+  <img src="./git_img/search.png" height="400">
+  <img src="./git_img/login.png" height="400">
+  <img src="./git_img/register.png" height="400">
 </p>
 <br/>
 
