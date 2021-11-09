@@ -83,10 +83,13 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ## ⚙ Configuração via Composer
 
-1- Para instalar o Laravel:
-> composer global require laravel/installer
+1- Para instalar dependências do projeto:
+> composer install
 
-2- Para iniciar a aplicação:
+2- Para criar as tabelas:
+> php artisan migrate
+
+3- Iniciar o servidor
 > php artisan serve
 
 
